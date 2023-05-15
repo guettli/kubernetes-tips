@@ -1,2 +1,5 @@
-# kubernetes-tips
-Kubernetes Tips
+# Kubernetes Tips
+
+random notes.
+
+
