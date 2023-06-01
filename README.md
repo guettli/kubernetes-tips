@@ -1,7 +1,7 @@
 # Kubernetes Tips
 
-random notes.
-
+Use the nice starship command line prompt, which supports Kubernetes: https://starship.rs/config/#kubernetes
+This needs te be activated in ~/.config/starship.toml.
 
 ## Not solved yet
 
