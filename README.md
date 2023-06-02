@@ -5,6 +5,9 @@ This needs te be activated in ~/.config/starship.toml.
 
 ## kubectl
 
+### Create a simple service
+
+open http://localhost:8080
 ### Get external IP of a control plane
 
 ```
