@@ -7,7 +7,20 @@ This needs te be activated in ~/.config/starship.toml.
 
 ### Create a simple service
 
+```
+k create deployment mynginx --image=nginx 
+
+k expose deployment mynginx --port 8080 --target-port 80
+
+
+k port-forward services/mynginx 8080
+
+# keep above command running and open a second shell
+
 open http://localhost:8080
+```
+
+
 ### Get external IP of a control plane
 
 ```
