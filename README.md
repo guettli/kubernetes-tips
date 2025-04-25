@@ -45,3 +45,11 @@ By the way, I prefer to install `stern` via `brew`. I don't know why the kubectl
 https://stackoverflow.com/questions/52957227/kubectl-command-to-list-pods-of-a-deployment-in-kubernetes
 
 Ugly shell scripts.
+
+## Things I would like to see in core (k/k)
+
+Things I would like in the core of Kubernetes:
+
+* [stakater/Reloader](https://github.com/stakater/Reloader): A Kubernetes controller to watch changes in ConfigMap and Secrets and do rolling upgrades on Pods with their associated Deployment, StatefulSet, DaemonSet and DeploymentConfig.
+* [Kubernetes Cluster Proportional Autoscaler](https://github.com/kubernetes-sigs/cluster-proportional-autoscaler): Scale the amount of pods by the size of the cluster (Node/CPU count).
+* [postfinance/kubelet-csr-approver](https://github.com/postfinance/kubelet-csr-approver): Kubernetes controller to enable automatic kubelet CSR validation after a series of (configurable) security checks.
